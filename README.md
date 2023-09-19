@@ -1,6 +1,6 @@
 # aloha-queue
 A user-friendly Python library designed to streamline the process of checking appointment availability on AlohaQ. 
- <br>*( Currently appointment checking is only available for written permit test )*
+ <br>*( Currently, appointment checking is ONLY available for the written permit test )*
 
 
 ## Installation
