@@ -17,8 +17,8 @@ checker = QueueChecker("KAPA", 12, 12, 2023)
 
 # returns all available appointment dates before 12/12/2023
 available_dates = checker.get_available_dates()
-# returns all available appointment time on 12/12/2023
-available_time = checker.get_available_time("2023-12-12")
+# returns all available appointment time on 06/06/2023
+available_time = checker.get_available_time("2023-06-06")
 ```
 
 ## Locations Abbreviations 
