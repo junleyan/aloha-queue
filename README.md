@@ -1,6 +1,6 @@
 # aloha-queue
 A user-friendly Python library designed to streamline the process of checking appointment availability on AlohaQ. 
-Currently appointment checking feature is only available for written permit test
+ <br>*( Currently appointment checking is only available for written permit test )*
 
 
 ## Installation
@@ -12,6 +12,7 @@ pip install aloha-queue
 ```py
 from alohaqueue import QueueChecker
 
+# QueueChecker(location, target month, target day, target year)
 checker = QueueChecker("KAPA", 12, 12, 2023)
 
 # returns all available appointment dates before 12/12/2023
@@ -19,3 +20,10 @@ available_dates = checker.get_available_dates()
 # returns all available appointment time on 12/12/2023
 available_time = checker.get_available_time("2023-12-12")
 ```
+
+## Locations Abbreviations 
+- `"KAPA"` : Kapalama Driver Licensing Center
+- `"KAPO"` : Kapolei Driver Licensing Center
+- `"KOOL"` : Koolau Driver Licensing Center
+- `"WADL"` : Wahiawa Driver Licensing Center
+- `"WAIA"` : Waianae Driver Licensing Center
